@@ -1,0 +1,58 @@
+1 - 
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro I, T=0 
+		 para(I=0 ;  I<500 ; I=I+3)
+	
+		 {
+		 
+		 	se(I%2==1){
+		 	T=(T + I) 
+		 	
+		 	}
+		 	
+		 }
+		 escreva("A soma de todos os numeros impares divisiveis por 3 ate 500: ", T )
+	}
+}
+
+2- programa
+{
+	
+	funcao inicio()
+	{
+		inteiro N1
+		escreva("digite um numero: ")
+		leia(N1) 
+		escreva(N1)
+		enquanto (N1 <100) {
+		         N1=N1 * 3 
+		        escreva(", " , N1)
+		
+		}
+		
+		
+		
+	}
+}
+
+3- programa
+{
+	
+	funcao inicio()
+	{
+	inteiro X , Y=0 , S=0
+	escreva(" digite um numero  \n")
+	leia(X)
+	faca {
+		Y++ 
+		S=S + Y 
+		escreva(Y , " + " )
+	}
+	enquanto(Y !=X-1 )
+	escreva(X ," = ", S)
+	}
+}

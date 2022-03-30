@@ -1,0 +1,83 @@
+4- programa
+{
+	
+	funcao inicio()
+	{
+	inteiro  numero
+	escreva("numero")
+	leia(numero) 
+	se(numero%2==0) {
+		escreva(" par\n")
+	}
+	senao {
+		escreva ("impar\n")
+	}
+	
+	se(numero >=0) {
+		escreva("positivo\n")
+	}
+	senao {
+		escreva("negativo")
+	}
+	}
+}
+ 5 programa
+{
+	
+	funcao inicio()
+	{
+		real numero
+		escreva(" Qual o nivel de poluição hoje \n")
+		leia(numero) 
+		se(numero >= 0.3){
+	        escreva("grupo 1 sera intimado a suspender suas atividades \n")}
+	     se(numero  >= 0.4) {
+	        escreva("grupo 2 sera intimado a suspender suas atividades \n")}
+	     se(numero > 0.5){
+	     	escreva("grupo 3 sera intimado a suspender suas atividades  \n")}
+	    
+			 
+		}
+		
+}		 
+
+6-programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade 
+		escreva(" Digite sua idade ? \n")
+		leia(idade)
+		se(idade >= 5 e 7  >= idade) {
+		 	escreva(" infantil A")
+		}
+		se(idade >= 8 e 11 >= idade) {
+		 	escreva("infantil B")
+		}
+		se(idade >= 12 e 13 >= idade) {
+		 	escreva("juvenil A") 	
+		 }
+		se(idade >= 14 e 17 >= idade) {
+		 	escreva("juvenil B")
+		 }
+		se(idade > 18 )
+		 escreva("adultos") 
+	}
+}
+
+
+8- programa
+{
+	
+	funcao inicio()
+	{
+		inteiro N
+		escreva("Digite um numero \n")
+		leia(N)
+		se (N > 100) {
+		escreva(" o numero é ", N) }
+          senao{
+          	escreva(" o numero é 0")
+          }
+	}
